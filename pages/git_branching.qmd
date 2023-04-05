@@ -3,7 +3,3 @@ title: "Git branching"
 ---
 
 Using branching for development
-
-```{r}
-1 + 1
-```

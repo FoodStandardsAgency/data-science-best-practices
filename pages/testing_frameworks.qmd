@@ -3,7 +3,3 @@ title: "Testing frameworks"
 ---
 
 Testing your code in R and python
-
-```{r}
-1 + 1
-```

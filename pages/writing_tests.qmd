@@ -3,7 +3,3 @@ title: "Writing tests"
 ---
 
 What to test
-
-```{r}
-1 + 1
-```

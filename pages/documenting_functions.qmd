@@ -3,7 +3,3 @@ title: "Documenting functions"
 ---
 
 How to add documentation to your functions
-
-```{r}
-1 + 1
-```

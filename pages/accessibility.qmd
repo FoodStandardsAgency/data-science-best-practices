@@ -3,7 +3,3 @@ title: "Accessibility"
 ---
 
 How to make your visuals and dashboards accessible
-
-```{r}
-1 + 1
-```

@@ -3,7 +3,3 @@ title: "Peer review"
 ---
 
 The peer review process for code
-
-```{r}
-1 + 1
-```

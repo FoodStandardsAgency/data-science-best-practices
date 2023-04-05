@@ -3,7 +3,3 @@ title: "Data storage and sharing"
 ---
 
 How best to store and share data
-
-```{r}
-1 + 1
-```

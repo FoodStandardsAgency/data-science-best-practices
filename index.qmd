@@ -4,12 +4,24 @@ title: "Intro"
 
 This is our best practice guide.
 
-It is a work in progress!
+It is a work in progress.
 
-It includes how to do things in R:
+It includes how to do things in R and Python:
 
-```{r}
+::: panel-tabset
+#### R
+
+``` r
 library(dplyr)
 
 iris %>% count(Species)
 ```
+
+#### Python
+
+``` python
+import pandas as pd
+
+iris.value_counts("Species")
+```
+:::

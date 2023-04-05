@@ -3,7 +3,3 @@ title: "Writing functions"
 ---
 
 Best practices for writing functions
-
-```{r}
-1 + 1
-```

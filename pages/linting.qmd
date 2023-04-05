@@ -3,7 +3,3 @@ title: "Linting and standards"
 ---
 
 Enforcing style guides on your code
-
-```{r}
-1 + 1
-```

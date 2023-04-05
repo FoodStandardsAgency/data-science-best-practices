@@ -3,7 +3,3 @@ title: "GitHub issues"
 ---
 
 Using issues to drive development and what makes a good issue
-
-```{r}
-1 + 1
-```

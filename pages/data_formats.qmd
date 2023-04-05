@@ -3,7 +3,3 @@ title: "Data formats"
 ---
 
 The pros and cons of different data formats
-
-```{r}
-1 + 1
-```
