@@ -1,0 +1,14 @@
+{
+  "hash": "50024619533d1633b8b78356b75dc48b",
+  "result": {
+    "markdown": "---\ntitle: \"Coding: General principles\"\n---\n\n\nGeneral good practices for coding\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

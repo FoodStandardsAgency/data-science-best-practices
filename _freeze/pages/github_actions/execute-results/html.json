@@ -1,0 +1,14 @@
+{
+  "hash": "2feb6396f3c7f8b794eef2a56476f431",
+  "result": {
+    "markdown": "---\ntitle: \"Github actions\"\n---\n\n\nUsing GitHub Actions to automate hooks, tests, deployments, etc.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

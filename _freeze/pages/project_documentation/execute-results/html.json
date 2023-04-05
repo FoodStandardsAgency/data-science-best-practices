@@ -1,0 +1,14 @@
+{
+  "hash": "53a2e447a16d6f197fca723b9bd99c4e",
+  "result": {
+    "markdown": "---\ntitle: \"Documenting a project\"\n---\n\n\nWhat documentation does a project need\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

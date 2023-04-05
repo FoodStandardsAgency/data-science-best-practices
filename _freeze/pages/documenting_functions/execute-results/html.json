@@ -1,0 +1,14 @@
+{
+  "hash": "e022ee50f36af08039b51bba4722c042",
+  "result": {
+    "markdown": "---\ntitle: \"Documenting functions\"\n---\n\n\nHow to add documentation to your functions\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

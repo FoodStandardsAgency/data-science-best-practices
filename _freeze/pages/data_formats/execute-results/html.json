@@ -1,0 +1,14 @@
+{
+  "hash": "5f56f6dda664e8d02b5665c98173a12a",
+  "result": {
+    "markdown": "---\ntitle: \"Data formats\"\n---\n\n\nThe pros and cons of different data formats\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

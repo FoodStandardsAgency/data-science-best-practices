@@ -1,0 +1,14 @@
+{
+  "hash": "7c74d03e457ae61185040b0cd43571c0",
+  "result": {
+    "markdown": "---\ntitle: \"Planning and organisation\"\n---\n\n\nHow to organise a project\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
