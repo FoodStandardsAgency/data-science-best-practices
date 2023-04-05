@@ -1,0 +1,57 @@
+project:
+  type: website
+
+website:
+  title: "FSA Data Science best practice guide"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd
+      - section: "Project management"
+        contents:
+          - pages/project_structure.qmd
+          - pages/planning.qmd
+          - pages/file_naming.qmd
+          - pages/credentials.qmd
+      - section: "Code"
+        contents:
+          - pages/coding_general.qmd
+          - pages/function_writing.qmd
+          - pages/packages.qmd
+          - pages/linting.qmd
+      - section: "Data"
+        contents:
+          - pages/data_formats.qmd
+          - pages/data_storage.qmd
+      - section: "Visualisation"
+        contents:
+          - pages/shiny.qmd
+          - pages/accessibility.qmd
+      - section: "Documentation"
+        contents:
+          - pages/documenting_functions.qmd
+          - pages/documenting_code.qmd
+          - pages/project_documentation.qmd
+      - section: "Testing"
+        contents:
+          - pages/testing_frameworks.qmd
+          - pages/writing_tests.qmd
+      - section: "Version control"
+        contents:
+          - pages/git_branching.qmd
+          - pages/github_issues.qmd
+          - pages/pull_requests.qmd
+          - pages/github_actions.qmd
+      - section: "Peer review and QA"
+        contents:
+          - pages/peer_review.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

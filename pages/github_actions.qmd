@@ -1,0 +1,9 @@
+---
+title: "Github actions"
+---
+
+Using GitHub Actions to automate hooks, tests, deployments, etc.
+
+```{r}
+1 + 1
+```

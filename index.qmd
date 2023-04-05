@@ -1,0 +1,9 @@
+---
+title: "Intro"
+---
+
+This is our best practice guide.
+
+```{r}
+1 + 1
+```

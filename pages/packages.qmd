@@ -1,0 +1,9 @@
+---
+title: "Packages"
+---
+
+When and how to create a package
+
+```{r}
+1 + 1
+```

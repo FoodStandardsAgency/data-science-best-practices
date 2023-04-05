@@ -1,0 +1,9 @@
+---
+title: "Coding: General principles"
+---
+
+General good practices for coding
+
+```{r}
+1 + 1
+```

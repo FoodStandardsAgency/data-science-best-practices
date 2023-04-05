@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Intro",
+    "section": "",
+    "text": "This is our best practice guide.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/project_structure.html",
+    "href": "pages/project_structure.html",
+    "title": "Project structure",
+    "section": "",
+    "text": "How to structure a project\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/peer_review.html",
+    "href": "pages/peer_review.html",
+    "title": "Peer review",
+    "section": "",
+    "text": "The peer review process for code\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/accessibility.html",
+    "href": "pages/accessibility.html",
+    "title": "Accessibility",
+    "section": "",
+    "text": "How to make your visuals and dashboards accessible\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/coding_general.html",
+    "href": "pages/coding_general.html",
+    "title": "Coding: General principles",
+    "section": "",
+    "text": "General good practices for coding\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/credentials.html",
+    "href": "pages/credentials.html",
+    "title": "Credential management",
+    "section": "",
+    "text": "How to manage secrets in a project\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/data_formats.html",
+    "href": "pages/data_formats.html",
+    "title": "Data formats",
+    "section": "",
+    "text": "The pros and cons of different data formats\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/data_storage.html",
+    "href": "pages/data_storage.html",
+    "title": "Data storage and sharing",
+    "section": "",
+    "text": "How best to store and share data\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/documenting_code.html",
+    "href": "pages/documenting_code.html",
+    "title": "Documenting code",
+    "section": "",
+    "text": "What should you document in your code\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/documenting_functions.html",
+    "href": "pages/documenting_functions.html",
+    "title": "Documenting functions",
+    "section": "",
+    "text": "How to add documentation to your functions\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/file_naming.html",
+    "href": "pages/file_naming.html",
+    "title": "File naming conventions",
+    "section": "",
+    "text": "Naming conventions for files, data, etc.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/function_writing.html",
+    "href": "pages/function_writing.html",
+    "title": "Writing functions",
+    "section": "",
+    "text": "Best practices for writing functions\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/github_actions.html",
+    "href": "pages/github_actions.html",
+    "title": "Github actions",
+    "section": "",
+    "text": "Using GitHub Actions to automate hooks, tests, deployments, etc.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/github_issues.html",
+    "href": "pages/github_issues.html",
+    "title": "GitHub issues",
+    "section": "",
+    "text": "Using issues to drive development and what makes a good issue\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/git_branching.html",
+    "href": "pages/git_branching.html",
+    "title": "Git branching",
+    "section": "",
+    "text": "Using branching for development\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/linting.html",
+    "href": "pages/linting.html",
+    "title": "Linting and standards",
+    "section": "",
+    "text": "Enforcing style guides on your code\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/packages.html",
+    "href": "pages/packages.html",
+    "title": "Packages",
+    "section": "",
+    "text": "When and how to create a package\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/planning.html",
+    "href": "pages/planning.html",
+    "title": "Planning and organisation",
+    "section": "",
+    "text": "How to organise a project\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/project_documentation.html",
+    "href": "pages/project_documentation.html",
+    "title": "Documenting a project",
+    "section": "",
+    "text": "What documentation does a project need\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/pull_requests.html",
+    "href": "pages/pull_requests.html",
+    "title": "Pull requests",
+    "section": "",
+    "text": "How to raise a pull request\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/shiny.html",
+    "href": "pages/shiny.html",
+    "title": "Shiny dashboards",
+    "section": "",
+    "text": "Good practices in creating Shiny dashboards\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/testing_frameworks.html",
+    "href": "pages/testing_frameworks.html",
+    "title": "Testing frameworks",
+    "section": "",
+    "text": "Testing your code in R and python\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/writing_tests.html",
+    "href": "pages/writing_tests.html",
+    "title": "Writing tests",
+    "section": "",
+    "text": "What to test\n\n1 + 1\n\n[1] 2"
+  }
+]

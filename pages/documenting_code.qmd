@@ -1,0 +1,9 @@
+---
+title: "Documenting code"
+---
+
+What should you document in your code
+
+```{r}
+1 + 1
+```

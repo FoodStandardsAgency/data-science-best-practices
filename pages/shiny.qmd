@@ -1,0 +1,9 @@
+---
+title: "Shiny dashboards"
+---
+
+Good practices in creating Shiny dashboards
+
+```{r}
+1 + 1
+```

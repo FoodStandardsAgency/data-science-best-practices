@@ -1,0 +1,9 @@
+---
+title: "Documenting a project"
+---
+
+What documentation does a project need
+
+```{r}
+1 + 1
+```
