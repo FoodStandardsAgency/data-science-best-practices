@@ -2,4 +2,4 @@
 title: "Peer review"
 ---
 
-The peer review process for code
+The peer review process for code, steps involved and what is (not) in scope
