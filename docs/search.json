@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Intro",
     "section": "",
-    "text": "This is our best practice guide.\nIt is a work in progress.\nIt includes how to do things in R and Python:\n\nRPython\n\n\nlibrary(dplyr)\n\niris %>% count(Species)\n\n\nimport pandas as pd\n\niris.value_counts(\"Species\")"
+    "text": "This is our best practice guide.\nIt is a work in progress.\nIt includes how to do things in R and Python:\n\nRPython\n\n\nlibrary(dplyr)\n\niris %&gt;% count(Species)\n\n\nimport pandas as pd\n\niris.value_counts(\"Species\")"
   },
   {
     "objectID": "pages/accessibility.html",
     "href": "pages/accessibility.html",
     "title": "Accessibility",
     "section": "",
-    "text": "How to make your visuals and dashboards accessible"
+    "text": "How to make your visuals and dashboards nice and accessible"
   },
   {
     "objectID": "pages/coding_general.html",
