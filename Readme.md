@@ -13,6 +13,6 @@ If you are a member of the FSA Organisation on GitHub you can make pull requests
 1.  Clone the repo
 2.  Run `renv::restore()` to install any missing packages
 3.  Create and checkout a new branch
-4.  Make changes to the relevant file(s) in `/pages` and rebuild the site
+4.  Make changes to the relevant file(s) in `/pages` and rebuild the site (Ctrl + Shift + B in Rstudio)
 5.  Commit your changes and push the new branch to GitHub
 6.  Open a pull request, and someone on the Data Science Team will review it

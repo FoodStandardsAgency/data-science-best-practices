@@ -109,7 +109,7 @@
     "href": "pages/peer_review.html",
     "title": "Peer review",
     "section": "",
-    "text": "The peer review process for code"
+    "text": "The peer review process for code, steps involved and what is (not) in scope"
   },
   {
     "objectID": "pages/planning.html",
@@ -137,7 +137,7 @@
     "href": "pages/pull_requests.html",
     "title": "Pull requests",
     "section": "",
-    "text": "How to raise a pull request"
+    "text": "How to raise a pull request, what makes a good pull request, etc."
   },
   {
     "objectID": "pages/shiny.html",
@@ -159,12 +159,5 @@
     "title": "Writing tests",
     "section": "",
     "text": "What to test"
-  },
-  {
-    "objectID": "Readme.html",
-    "href": "Readme.html",
-    "title": "FSA Data Science best practice guide",
-    "section": "",
-    "text": "Data Science best practices"
   }
 ]
