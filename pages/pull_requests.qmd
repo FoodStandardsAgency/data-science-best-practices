@@ -2,4 +2,4 @@
 title: "Pull requests"
 ---
 
-How to raise a pull request
+How to raise a pull request, what makes a good pull request, etc.
