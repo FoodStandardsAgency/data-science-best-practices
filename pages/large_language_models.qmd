@@ -1,0 +1,101 @@
+---
+title: "Ethical Considerations for Large Langauge Models (LLMs)"
+date-modified: '26/06/2023'
+---
+
+# Introduction
+The ethical implications of Large Language Models (LLMs) have come to the fore with the rapid developments of LLMs driven by commercial technology companies like OpenAI and Google, although there has also been a boom in open-source LLMs in recent months too, such as BLOOM and LlAMA. 
+
+LLMs build upon concepts and paradigms in many overlapping fields, such as computational linguistics in linguistics, and natural language processing in computer science (to name a few). Although LLMs are not new - for example, the n-gram model goes back to the 1940s - the discourse around them has been catalysed by ChatGPT and rapid developments in this space; the improvements made to LLMs has been accelerated by the increase in computing resources, as well as the ever-expanding Web as a vast information source to enable the (unsupervised) training of these models. 
+
+For example, BLOOM (an open-source multilingual LLM) has 176 billion parameters. The size of these models enables them to be extremely performant on certain text-related tasks such as question answering, text summarisation, named entity recognition, and many other applications. 
+
+This page covers available resources and frameworks to support the use of LLMs and generative AI, a summary of the core ethical issues, and potential responsible applications of this technology.
+
+# Artificial Intelligence (AI) Ethics Frameworks 
+There are useful frameworks for developing and deploying AI, and these include:
+- [Data Ethics Framework](https://www.gov.uk/government/publications/data-ethics-framework) is a general Data Ethics framework that should be used in project initiation. 
+- [The Alan Turing Institute: Understanding artificial intelligence ethics and safety](https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf)
+- [ICO AI and data protection risk toolkit](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/ai-and-data-protection-risk-toolkit/)
+
+These frameworks cover the key ethical implications in the use of these models, including:
+1. The processing of personal data;
+2. Data breaches and reputational damage;
+3. Reliability: the issues of hallucinations, bias, and explainability.
+4. The environmental impact of training computationally hungry models ([Strubell et al., 2019](https://arxiv.org/pdf/1906.02243.pdf)).
+5. Rights and credit attribution 
+
+# 1. Data protection and personal data
+The critical concern is around the use of personal information, relating to [The Data Protection Act 2018](https://www.gov.uk/data-protection) (the UK implementation of the EU’s GDPR legislation). 
+
+The Information Commissioner's Office (ICO) have developed a checklist of [8 questions to consider when using generative AI](https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2023/04/generative-ai-eight-questions-that-developers-and-users-need-to-ask/).
+
+
+1. What is the basis of processing personal information?
+2. What is your role, i.e. are you a controller, joint controller, or processor?
+3. Have you been through the DPIA process?
+4. Transparency: how will information about processing be made publicly available? The [Algorithmic Transparency Recording Standard](https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub) should be used for algorithmic transparency.
+5. How will security risks be mitigated - this is not just limited to personal data leaks but other forms of security breaches. 
+6. How will unnecessary processing be limited?
+7. How will you comply with individual rights requests for access rectification, erasure etc.?
+8. Will generative AI be used to make solely automated decisions, and will these have significant implications? (i.e. medical diagnoses)
+
+*Note: These considerations are applicable even if the personal data is publicly available.*
+
+# 2. Data leaks
+In April 2023, a major electronics firm banned the use of ChatGPT and other generative AI products by their employees. This came after commercially sensitive information was accidentally leaked by engineers who were using ChatGPT to troubleshoot proprietary code, and also to summarise internal meeting minutes. [add more]
+
+# 3. Unreliable, Unsafe, or Poor-Quality Outcomes
+
+## Explainability
+[add more]
+
+## Hallucination
+[add more]
+
+## Bias
+[add more]
+
+[What are the costs of unreliability for each use case?]
+
+# 4. Environmental impact
+"Model training... incurs substantial cost to the environment due to the energy required to power this hardware for weeks or months at a time." [(Strubell et al., 2019)](https://arxiv.org/pdf/1906.02243.pdf). It was estimated that training training BERT on GPU is a similar equivalence to a trans-American flight.
+[add more]
+
+# 5. Rights and credit attribution 
+Generative AI models are trained on vast swathes of processed text and images, which are generally mined without permission from the original content creator. There is an intellectual property issue that, as yet, has not been resolved, and cases have been filed against companies that have used copyrighted materials.
+
+There are two key areas that require clarification: a) to what extent these models are generating ['derivative'](https://copyrightservice.co.uk/copyright/p22_derivative_works#:~:text=Provided%20it%20is%20significantly%20different%20to%20the%20original,have%20created%20as%20a%20result%20of%20your%20actions.) work and b) how is the [fair use](https://copyrightservice.co.uk/copyright/p09_fair_use#:~:text=Fair%20use%20sets%20out%20certain%20actions%20that%20may,in%20disproportionate%20penalties%20for%20inconsequential%20or%20accidental%20inclusion) (allowing copyright work to be used without explicit consent) interpreted in these instances ([Appel et al., 2023](https://hbr.org/2023/04/generative-ai-has-an-intellectual-property-problem)). There is a risk that, in using generative AI to create content, the content is substantially similar an original work, and this may infringe intellectual property rights. 
+
+# Potential applications
+Generative AI and LLMs are surrounded by a sea of uncertainty, particularly in terms of regulation, and it should be considered as "bleeding edge" technology; it is not yet suitable for production but we need to be familiar with it and use it in a low-risk way, for example:
+
+- Use cases that are for internal use only i.e. not citizen-facing
+- Uses only open data
+- Only receives harmless prompts from colleagues
+- Can be evaluated with a 'ground-truth' dataset
+
+Projects that use this technology could include:
+
+|Use                       |Example                                                                                    |
+|:------------------------:|:-----------------------------------------------------------------------------------------:|
+| Named Entity Recognition | Fine tuning an LLM to extract semantic metadata - like hazards - from unstructured text   |
+| Search Engine            | Returning food signals based on semantic similarity rather than exact matches (lexical)   |
+| Chatbot                  | An *internal* Q&A chatbot tailored to the FSA website                                     |
+| Text classification      | Classifying extracted text from manifests as feed / non-feed                              |
+| Code review              | Refactoring code to make it cleaner, more efficient, and to best practice                 |
+| Code generation          | Create unit tests[^longnote]                                                              |
+
+[^longnote]: Any code included in a prompt should not include any sensitive information.
+
+  Hallucination is still possible with code. Output may also be out of date
+
+## Resources:
+
+- [Central Digital and Data Office: Data Ethics Framework](https://www.gov.uk/government/publications/data-ethics-framework)
+- [The Alan Turing Institute: Understanding artificial intelligence ethics and safety](https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf)
+- [The Algorithmic Transparency Recording Standard](https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub)
+- [ICO AI and data protection risk toolkit](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/ai-and-data-protection-risk-toolkit/)
+- [The Data Protection Act 2018](https://www.gov.uk/data-protection).
+- Harvard Business Review (2023): [Generative AI Has an Intellectual Property Problem (2023)](https://hbr.org/2023/04/generative-ai-has-an-intellectual-property-problem)
+- [UK Copyright Service](https://copyrightservice.co.uk/copyright/intellectual_property)
