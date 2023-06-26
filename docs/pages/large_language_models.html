@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>FSA Data Science best practice guide - Documenting a project</title>
+<title>FSA Data Science best practice guide - Ethical Considerations for Large Langauge Models (LLMs)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../pages/documenting_functions.html">Documentation</a></li><li class="breadcrumb-item"><a href="../pages/project_documentation.html">Documenting a project</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../pages/large_language_models.html">Data Ethics</a></li><li class="breadcrumb-item"><a href="../pages/large_language_models.html">Ethical Considerations for Large Langauge Models (LLMs)</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -243,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../pages/project_documentation.html" class="sidebar-item-text sidebar-link active">
+  <a href="../pages/project_documentation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Documenting a project</span></a>
   </div>
 </li>
@@ -335,7 +335,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../pages/large_language_models.html" class="sidebar-item-text sidebar-link">
+  <a href="../pages/large_language_models.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Ethical Considerations for Large Langauge Models (LLMs)</span></a>
   </div>
 </li>
@@ -347,14 +347,35 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#artificial-intelligence-ai-ethics-frameworks" id="toc-artificial-intelligence-ai-ethics-frameworks" class="nav-link" data-scroll-target="#artificial-intelligence-ai-ethics-frameworks">Artificial Intelligence (AI) Ethics Frameworks</a></li>
+  <li><a href="#data-protection-and-personal-data" id="toc-data-protection-and-personal-data" class="nav-link" data-scroll-target="#data-protection-and-personal-data">1. Data protection and personal data</a></li>
+  <li><a href="#data-leaks" id="toc-data-leaks" class="nav-link" data-scroll-target="#data-leaks">2. Data leaks</a></li>
+  <li><a href="#unreliable-unsafe-or-poor-quality-outcomes" id="toc-unreliable-unsafe-or-poor-quality-outcomes" class="nav-link" data-scroll-target="#unreliable-unsafe-or-poor-quality-outcomes">3. Unreliable, Unsafe, or Poor-Quality Outcomes</a>
+  <ul class="collapse">
+  <li><a href="#explainability" id="toc-explainability" class="nav-link" data-scroll-target="#explainability">Explainability</a></li>
+  <li><a href="#hallucination" id="toc-hallucination" class="nav-link" data-scroll-target="#hallucination">Hallucination</a></li>
+  <li><a href="#bias" id="toc-bias" class="nav-link" data-scroll-target="#bias">Bias</a></li>
+  </ul></li>
+  <li><a href="#environmental-impact" id="toc-environmental-impact" class="nav-link" data-scroll-target="#environmental-impact">4. Environmental impact</a></li>
+  <li><a href="#rights-and-credit-attribution" id="toc-rights-and-credit-attribution" class="nav-link" data-scroll-target="#rights-and-credit-attribution">5. Rights and credit attribution</a></li>
+  <li><a href="#potential-applications" id="toc-potential-applications" class="nav-link" data-scroll-target="#potential-applications">Potential applications</a>
+  <ul class="collapse">
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources:</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Documenting a project</h1>
+<h1 class="title">Ethical Considerations for Large Langauge Models (LLMs)</h1>
 </div>
 
 
@@ -363,17 +384,146 @@ ul.task-list li input[type="checkbox"] {
 
     
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">February 6, 2025</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<p>What documentation does a project need</p>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>The ethical implications of Large Language Models (LLMs) have come to the fore with the rapid developments of LLMs driven by commercial technology companies like OpenAI and Google, although there has also been a boom in open-source LLMs in recent months too, such as BLOOM and LlAMA.</p>
+<p>LLMs build upon concepts and paradigms in many overlapping fields, such as computational linguistics in linguistics, and natural language processing in computer science (to name a few). Although LLMs are not new - for example, the n-gram model goes back to the 1940s - the discourse around them has been catalysed by ChatGPT and rapid developments in this space; the improvements made to LLMs has been accelerated by the increase in computing resources, as well as the ever-expanding Web as a vast information source to enable the (unsupervised) training of these models.</p>
+<p>For example, BLOOM (an open-source multilingual LLM) has 176 billion parameters. The size of these models enables them to be extremely performant on certain text-related tasks such as question answering, text summarisation, named entity recognition, and many other applications.</p>
+<p>This page covers available resources and frameworks to support the use of LLMs and generative AI, a summary of the core ethical issues, and potential responsible applications of this technology.</p>
+</section>
+<section id="artificial-intelligence-ai-ethics-frameworks" class="level1">
+<h1>Artificial Intelligence (AI) Ethics Frameworks</h1>
+<p>There are useful frameworks for developing and deploying AI, and these include: - <a href="https://www.gov.uk/government/publications/data-ethics-framework">Data Ethics Framework</a> is a general Data Ethics framework that should be used in project initiation. - <a href="https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf">The Alan Turing Institute: Understanding artificial intelligence ethics and safety</a> - <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/ai-and-data-protection-risk-toolkit/">ICO AI and data protection risk toolkit</a></p>
+<p>These frameworks cover the key ethical implications in the use of these models, including: 1. The processing of personal data; 2. Data breaches and reputational damage; 3. Reliability: the issues of hallucinations, bias, and explainability. 4. The environmental impact of training computationally hungry models (<a href="https://arxiv.org/pdf/1906.02243.pdf">Strubell et al., 2019</a>). 5. Rights and credit attribution</p>
+</section>
+<section id="data-protection-and-personal-data" class="level1">
+<h1>1. Data protection and personal data</h1>
+<p>The critical concern is around the use of personal information, relating to <a href="https://www.gov.uk/data-protection">The Data Protection Act 2018</a> (the UK implementation of the EU’s GDPR legislation).</p>
+<p>The Information Commissioner’s Office (ICO) have developed a checklist of <a href="https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2023/04/generative-ai-eight-questions-that-developers-and-users-need-to-ask/">8 questions to consider when using generative AI</a>.</p>
+<ol type="1">
+<li>What is the basis of processing personal information?</li>
+<li>What is your role, i.e.&nbsp;are you a controller, joint controller, or processor?</li>
+<li>Have you been through the DPIA process?</li>
+<li>Transparency: how will information about processing be made publicly available? The <a href="https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub">Algorithmic Transparency Recording Standard</a> should be used for algorithmic transparency.</li>
+<li>How will security risks be mitigated - this is not just limited to personal data leaks but other forms of security breaches.</li>
+<li>How will unnecessary processing be limited?</li>
+<li>How will you comply with individual rights requests for access rectification, erasure etc.?</li>
+<li>Will generative AI be used to make solely automated decisions, and will these have significant implications? (i.e.&nbsp;medical diagnoses)</li>
+</ol>
+<p><em>Note: These considerations are applicable even if the personal data is publicly available.</em></p>
+</section>
+<section id="data-leaks" class="level1">
+<h1>2. Data leaks</h1>
+<p>In April 2023, a major electronics firm banned the use of ChatGPT and other generative AI products by their employees. This came after commercially sensitive information was accidentally leaked by engineers who were using ChatGPT to troubleshoot proprietary code, and also to summarise internal meeting minutes. [add more]</p>
+</section>
+<section id="unreliable-unsafe-or-poor-quality-outcomes" class="level1">
+<h1>3. Unreliable, Unsafe, or Poor-Quality Outcomes</h1>
+<section id="explainability" class="level2">
+<h2 class="anchored" data-anchor-id="explainability">Explainability</h2>
+<p>[add more]</p>
+</section>
+<section id="hallucination" class="level2">
+<h2 class="anchored" data-anchor-id="hallucination">Hallucination</h2>
+<p>[add more]</p>
+</section>
+<section id="bias" class="level2">
+<h2 class="anchored" data-anchor-id="bias">Bias</h2>
+<p>[add more]</p>
+<p>[What are the costs of unreliability for each use case?]</p>
+</section>
+</section>
+<section id="environmental-impact" class="level1">
+<h1>4. Environmental impact</h1>
+<p>“Model training… incurs substantial cost to the environment due to the energy required to power this hardware for weeks or months at a time.” <a href="https://arxiv.org/pdf/1906.02243.pdf">(Strubell et al., 2019)</a>. It was estimated that training training BERT on GPU is a similar equivalence to a trans-American flight. [add more]</p>
+</section>
+<section id="rights-and-credit-attribution" class="level1">
+<h1>5. Rights and credit attribution</h1>
+<p>Generative AI models are trained on vast swathes of processed text and images, which are generally mined without permission from the original content creator. There is an intellectual property issue that, as yet, has not been resolved, and cases have been filed against companies that have used copyrighted materials.</p>
+<p>There are two key areas that require clarification: a) to what extent these models are generating <a href="https://copyrightservice.co.uk/copyright/p22_derivative_works#:~:text=Provided%20it%20is%20significantly%20different%20to%20the%20original,have%20created%20as%20a%20result%20of%20your%20actions.">‘derivative’</a> work and b) how is the <a href="https://copyrightservice.co.uk/copyright/p09_fair_use#:~:text=Fair%20use%20sets%20out%20certain%20actions%20that%20may,in%20disproportionate%20penalties%20for%20inconsequential%20or%20accidental%20inclusion">fair use</a> (allowing copyright work to be used without explicit consent) interpreted in these instances (<a href="https://hbr.org/2023/04/generative-ai-has-an-intellectual-property-problem">Appel et al., 2023</a>). There is a risk that, in using generative AI to create content, the content is substantially similar an original work, and this may infringe intellectual property rights.</p>
+</section>
+<section id="potential-applications" class="level1">
+<h1>Potential applications</h1>
+<p>Generative AI and LLMs are surrounded by a sea of uncertainty, particularly in terms of regulation, and it should be considered as “bleeding edge” technology; it is not yet suitable for production but we need to be familiar with it and use it in a low-risk way, for example:</p>
+<ul>
+<li>Use cases that are for internal use only i.e.&nbsp;not citizen-facing</li>
+<li>Uses only open data</li>
+<li>Only receives harmless prompts from colleagues</li>
+<li>Can be evaluated with a ‘ground-truth’ dataset</li>
+</ul>
+<p>Projects that use this technology could include:</p>
+<table class="table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 77%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Use</th>
+<th style="text-align: center;">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Named Entity Recognition</td>
+<td style="text-align: center;">Fine tuning an LLM to extract semantic metadata - like hazards - from unstructured text</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Search Engine</td>
+<td style="text-align: center;">Returning food signals based on semantic similarity rather than exact matches (lexical)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Chatbot</td>
+<td style="text-align: center;">An <em>internal</em> Q&amp;A chatbot tailored to the FSA website</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Text classification</td>
+<td style="text-align: center;">Classifying extracted text from manifests as feed / non-feed</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Code review</td>
+<td style="text-align: center;">Refactoring code to make it cleaner, more efficient, and to best practice</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Code generation</td>
+<td style="text-align: center;">Create unit tests<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></td>
+</tr>
+</tbody>
+</table>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources:</h2>
+<ul>
+<li><a href="https://www.gov.uk/government/publications/data-ethics-framework">Central Digital and Data Office: Data Ethics Framework</a></li>
+<li><a href="https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf">The Alan Turing Institute: Understanding artificial intelligence ethics and safety</a></li>
+<li><a href="https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub">The Algorithmic Transparency Recording Standard</a></li>
+<li><a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/ai-and-data-protection-risk-toolkit/">ICO AI and data protection risk toolkit</a></li>
+<li><a href="https://www.gov.uk/data-protection">The Data Protection Act 2018</a>.</li>
+<li><a href="https://hbr.org/2023/04/generative-ai-has-an-intellectual-property-problem">Harvard Business Review (2023): Generative AI Has an Intellectual Property Problem</a></li>
+<li><a href="https://copyrightservice.co.uk/copyright/intellectual_property">UK Copyright Service</a></li>
+</ul>
 
 
+</section>
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Any code included in a prompt should not include any sensitive information. Hallucination is still possible with code. Output may also be out of date<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

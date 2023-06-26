@@ -47,6 +47,9 @@ website:
       - section: "Peer review and QA"
         contents:
           - pages/peer_review.qmd
+      - section: "Data Ethics"
+        contents:
+          - pages/large_language_models.qmd
 
 format:
   html:
